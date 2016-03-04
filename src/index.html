@@ -1,0 +1,113 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Receptsidan</title>
+    <link rel="stylesheet" href="style/main-style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+<div id="header"></div>
+
+<main>
+    <div class="info-box">
+        <h1>Coociemonster - Nätets bästa bakverk!</h1>
+    </div>
+    <aside>
+        <nav>
+            <div class="info-box">
+                <h3>Typ av recept</h3>
+            </div>
+            <ul class ="left-menu">
+                <li><a href="http://www.aftonbladet.se/">Bakverk</a></li>
+                <li><a href="http://www.aftonbladet.se/">Chocklad</a></li>
+                <li><a href="http://www.aftonbladet.se/">Vegetarisk</a></li>
+                <li><a href="http://www.aftonbladet.se/">Snabbmat</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <section>
+        <div class="recepi-of-the-day">
+            <h2 class="header-text">
+                <span class="header-inline">Dagens recept</span>
+            </h2>
+            <br>
+            <div class ="recepi-of-the-day-img">
+                <img src="img/recepi-of-the-day.jpg" alt="dagens recept">
+            </div>
+        </div>
+        <p style="visibility: hidden">Sortera</p>
+        <p style="position: absolute; top: 65%; left: 84%;">Sortera</p>
+
+        <select id="dropdown" style="position: absolute; top: 67%; left: 91%;">
+            <option>Högsta betyg</option>
+            <option>Lägsta betyg</option>
+        </select>
+        <div class="recepi-grid">
+            <div class="recepi">
+                <a href="">
+                    <p></p>
+                    <div class="recepi-image">
+                        <img alt="" src="img/chokladbollar.jpg">
+                    </div>
+                </a>
+                <p>
+                    <a href=""></a>
+                </p>
+                <div class="recepi-title">
+                    <a href="">Chokladbollar</a>
+                </div>
+            </div>
+
+            <div class="recepi">
+                <a href="">
+                    <p></p>
+                    <div class="recepi-image bottom-shadow">
+                        <img alt="" src="img/scones.jpg">
+                    </div>
+                </a>
+                <p>
+                    <a href=""></a>
+                </p>
+                <div class="recepi-title">
+                    <a href="">Scones</a>
+                </div>
+            </div>
+
+            <div class="recepi">
+                <a href="">
+                    <p></p>
+                    <div class="recepi-image bottom-shadow">
+                        <img alt="" src="img/cupcaces.jpg">
+                    </div>
+                </a>
+                <p>
+                    <a href=""></a>
+                </p>
+                <div class="recepi-title">
+                    <a href="">Cupcaces</a>
+                </div>
+            </div>
+
+            <div class="recepi">
+                <a href="">
+                    <p></p>
+                    <div class="recepi-image bottom-shadow">
+                        <img alt="" src="img/rulltarta.jpg">
+                    </div>
+                </a>
+                <p>
+                    <a href=""></a>
+                </p>
+                <div class="recepi-title">
+                    <a href="">Rulltårta</a>
+                </div>
+            </div>
+    </section>
+</main>
+<div id="footer"></div>
+</body>
+</html>
